@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"slices"
-	// "slices"
 )
 
 func main() {
@@ -18,7 +17,7 @@ func main() {
 	s[2] = "c"
 	fmt.Println("set:", s)
 	fmt.Println("get:", s[2])
-	fmt.Println("set:", len(s))
+	fmt.Println("len:", len(s))
 
 	s = append(s, "d")
 	s = append(s, "e", "f")
